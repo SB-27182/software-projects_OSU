@@ -1,5 +1,5 @@
 <h1> Software Projects </h1>
-<h5> These were completed in OSU's famous (infamous?) software-1 and software-2 sequence.<br> <br>See below for a synopsis of several projects and the accompanying grade recieved.
+<h5> These were completed in OSU's (in)famous software-1 and software-2 sequence.<br> <br>See below for a synopsis of several projects and the accompanying grade recieved.
  </h5>
 
 | Project | Description | Grade |
