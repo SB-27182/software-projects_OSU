@@ -1,0 +1,32 @@
+PROGRAM Instruction3NoneCalled IS
+
+    INSTRUCTION FindObstacle IS
+        WHILE next-is-not-empty DO
+            move
+        END WHILE
+    END FindObstacle
+
+    INSTRUCTION TurnAround IS
+        turnright
+        turnright
+    END TurnAround
+    
+    INSTRUCTION TurnInfect IS
+        turnright
+        infect
+    END TurnInfect
+
+BEGIN
+    WHILE true DO
+        move
+        IF next-is-not-enemy THEN
+            infect
+        ELSE
+            IF next-is-not-wall THEN
+                turnleft
+            ELSE
+                turnright
+            END IF
+        END IF
+    END WHILE
+END Instruction3NoneCalled

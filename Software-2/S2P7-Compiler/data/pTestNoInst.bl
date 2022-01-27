@@ -1,0 +1,16 @@
+PROGRAM NoInstruction IS
+
+BEGIN
+    WHILE true DO
+        move
+        IF next-is-not-enemy THEN
+            infect
+        ELSE
+            IF next-is-not-wall THEN
+                turnleft
+            ELSE
+                turnright
+            END IF
+        END IF
+    END WHILE
+END NoInstruction
